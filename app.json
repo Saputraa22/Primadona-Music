@@ -1,8 +1,8 @@
 {
-  "name": "Geez Music",
+  "name": "Primadona Music",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/vckyou/Geez-MusicProject",
+  "repository": "https://github.com/Saputraa22/Primadona-Music",
   "stack": "container",
   "buildpacks": [
    {
