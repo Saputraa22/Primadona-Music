@@ -30,13 +30,15 @@ async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>Haii {message.from_user.first_name} saya adalah {PROJECT_NAME}\n
 Saya Adalah Bot Music Group, Yang dapat Memutar Lagu di Voice Chat Group Anda Dengan Mudah
+
 Saya Memiliki Banyak Fitur Seperti :
 • Memutar Musik.
 • Mendownload Lagu.
-• Mencari Lagu Yang ingin di Putar atau di Download.
-• Gunakan Perintah » /help « untuk Mengetahui Fitur Lengkapnya
+• Mencari Lagu Yang DiInginkan.
+• Daftar Perintah Lengkap » /help « 
 
-📌 Special Thanks To : {OWNER}
+✥ Managed by : [OWNER](https://t.me/{OWNER})
+✥ Thanks To  : [MON](https://t.me/mondisini) | [VICKY](https://t.me/VckyouuBitch)
 
 Ingin Menambahkan Saya ke Grup Anda? Tambahkan Saya Ke Group Anda!
 </b>""",
@@ -51,16 +53,13 @@ Ingin Menambahkan Saya ke Grup Anda? Tambahkan Saya Ke Group Anda!
                         "➕ Tambahkan saya ke Grup Anda ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
                 [
                     InlineKeyboardButton(
-                        "💬 Channel Updates", url=f"https://t.me/{UPDATES_CHANNEL}"), 
+                        "☀️ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"), 
                     InlineKeyboardButton(
-                        "🎈 Group Support", url=f"https://t.me/{SUPPORT_GROUP}")
+                        "✨ ɢʀᴏᴜᴘ", url=f"https://t.me/{SUPPORT_GROUP}")
                 ],[
                     InlineKeyboardButton(
-                        "🛠 Source Code 🛠", url=f"https://{SOURCE_CODE}")
-                ],[
-                    InlineKeyboardButton(
-                        "🎁 Donate", url=f"https://t.me/VckyouuBitch")
-                ]
+                        "⚡ ᴏᴡɴᴇʀ", url=f"https://t.me/{OWNER}")
+                  ]
             ]
         ),
         reply_to_message_id=message.message_id
@@ -99,9 +98,9 @@ def map(pos):
         url = f"https://t.me/{SUPPORT_GROUP}"
         button = [
             [InlineKeyboardButton("➕ Tambahkan saya ke Grup Anda ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
-            [InlineKeyboardButton(text = '💬 Channel Updates', url=f"https://t.me/{UPDATES_CHANNEL}"),
-             InlineKeyboardButton(text = '🔰 Group Support', url=f"https://t.me/{SUPPORT_GROUP}")],
-            [InlineKeyboardButton(text = '🛠 Source Code 🛠', url=f"https://{SOURCE_CODE}")],
+            [InlineKeyboardButton(text = '☀️ ᴄʜᴀɴɴᴇʟ', url=f"https://t.me/{UPDATES_CHANNEL}"),
+             InlineKeyboardButton(text = '✨ ɢʀᴏᴜᴘ', url=f"https://t.me/{SUPPORT_GROUP}")],
+            [InlineKeyboardButton(text = '⚡ ᴏᴡɴᴇʀ', url=f"https://t.me/{OWNER}")],
             [InlineKeyboardButton(text = '«', callback_data = f"help+{pos-1}")]
         ]
     else:
@@ -168,10 +167,10 @@ async def reload(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "Group Support", url=f"https://t.me/GeezSupportGroup"
+                        "☀️ ᴄʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"
                     ),
                     InlineKeyboardButton(
-                        "Created By", url=f"https://t.me/VckyouuBitch"
+                        "⚡ ᴏᴡɴᴇʀ", url=f"https://t.me/{OWNER}"
                     )
                 ]
             ]
