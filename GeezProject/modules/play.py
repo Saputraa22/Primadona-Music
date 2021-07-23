@@ -531,7 +531,7 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton("📖 ᴘʟᴀʏʟɪsᴛ", callback_data="playlist"),
-                    InlineKeyboardButton("⛑ sᴜᴘᴘᴏʀᴛ", url="https://t.me/GeezProjets"),
+                    InlineKeyboardButton("⛑ sᴜᴘᴘᴏʀᴛ", url="https://t.me/{UPDATES_CHANNEL}"),
                 ],
                 [InlineKeyboardButton(text="🗑 ᴄʟᴏsᴇ", callback_data="cls")],
             ]
@@ -578,7 +578,7 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton("📖 ᴘʟᴀʏʟɪsᴛ", callback_data="playlist"),
-                    InlineKeyboardButton("⛑ sᴜᴘᴘᴏʀᴛ", url="https://t.me/GeezProjects"),
+                    InlineKeyboardButton("⛑ sᴜᴘᴘᴏʀᴛ", url="https://t.me/{UPDATES_CHANNEL}"),
                 ],
                 [InlineKeyboardButton(text="🗑 ᴄʟᴏsᴇ", callback_data="cls")],
             ]
@@ -657,7 +657,7 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton("📖 ᴘʟᴀʏʟɪsᴛ", callback_data="playlist"),
-                    InlineKeyboardButton("⛑ sᴜᴘᴘᴏʀᴛ", url="https://t.me/GeezProjects"),
+                    InlineKeyboardButton("⛑ sᴜᴘᴘᴏʀᴛ", url="https://t.me/{UPDATES_CHANNEL}"),
                 ],
                 [InlineKeyboardButton(text="🗑 ᴄʟᴏsᴇ", callback_data="cls")],
             ]
@@ -795,7 +795,7 @@ async def ytplay(_, message: Message):
             [
                 [
                     InlineKeyboardButton("📖 ᴘʟᴀʏʟɪsᴛ", callback_data="playlist"),
-                    InlineKeyboardButton("⛑ sᴜᴘᴘᴏʀᴛ", url="https://t.me/GeezProjects"),
+                    InlineKeyboardButton("⛑ sᴜᴘᴘᴏʀᴛ", url="https://t.me/{UPDATES_CHANNEL}"),
                 ],
                 [InlineKeyboardButton(text="🗑 ᴄʟᴏsᴇ", callback_data="cls")],
             ]
@@ -929,7 +929,7 @@ async def deezer(client: Client, message_: Message):
     
     keyboard = InlineKeyboardMarkup(
         [
-            [InlineKeyboardButton(text="⛑ sᴜᴘᴘᴏʀᴛ", url="https://t.me/GeezProjects")],
+            [InlineKeyboardButton(text="⛑ sᴜᴘᴘᴏʀᴛ", url="https://t.me/{UPDATES_CHANNEL}")],
         ]
     )
     file_path = await convert(wget.download(url))
@@ -1025,7 +1025,7 @@ async def lol_cb(b, cb):
             [
                 [
                     InlineKeyboardButton("📖 ᴘʟᴀʏʟɪsᴛ", callback_data="playlist"),
-                    InlineKeyboardButton("⛑ sᴜᴘᴘᴏʀᴛ", url="https://t.me/GeezProjects"),
+                    InlineKeyboardButton("⛑ sᴜᴘᴘᴏʀᴛ", url="https://t.me/{UPDATES_CHANNEL}"),
                 ],
                 [InlineKeyboardButton(text="🗑 ᴄʟᴏsᴇ", callback_data="cls")],
             ]
